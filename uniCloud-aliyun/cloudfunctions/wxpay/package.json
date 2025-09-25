@@ -1,0 +1,9 @@
+{
+	"name": "wxpay",
+	"dependencies": {
+		"wx-pay": "^1.0.2"
+	},
+	"extensions": {
+		"uni-cloud-jql": {}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "userWx",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

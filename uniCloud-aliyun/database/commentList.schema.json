@@ -1,0 +1,38 @@
+{
+	"bsonType": "object",
+	"required": ["articleId", "content"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"articleId": {
+			"bsonType": "string",
+			"description": "文章ID"
+		},
+		"content": {
+			"bsonType": "string",
+			"minLength": 1,
+			"maxLength": 500,
+			"description": "评论内容"
+		},
+		"images": {
+			"bsonType": "array",
+			"description": "评论图片URL数组",
+			"items": {
+				"bsonType": "string",
+				"description": "图片URL"
+			}
+		},
+		"createTime": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "状态 1:正常"
+		}
+	}
+}

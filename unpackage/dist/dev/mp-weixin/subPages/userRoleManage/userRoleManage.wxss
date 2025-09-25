@@ -1,0 +1,121 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+page.data-v-62f23709,
+view.data-v-62f23709,
+text.data-v-62f23709,
+image.data-v-62f23709,
+button.data-v-62f23709 {
+  font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+image.data-v-62f23709 {
+  width: 100%;
+  height: 100%;
+}
+.role-manage.data-v-62f23709 {
+  padding: 24rpx;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  padding: 20rpx;
+}
+.role-manage .loading.data-v-62f23709, .role-manage .no-data.data-v-62f23709 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+}
+.role-manage .loading .no-data.data-v-62f23709, .role-manage .no-data .no-data.data-v-62f23709 {
+  color: #999;
+  font-size: 28rpx;
+}
+.role-manage .role-container.data-v-62f23709 {
+  background-color: #fff;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+.role-manage .role-container .user-info.data-v-62f23709 {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1px solid #eee;
+}
+.role-manage .role-container .user-info .avatar.data-v-62f23709 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.role-manage .role-container .user-info .info .name.data-v-62f23709 {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.role-manage .role-container .user-info .info .mobile.data-v-62f23709 {
+  font-size: 26rpx;
+  color: #999;
+}
+.role-manage .role-container .role-list.data-v-62f23709 {
+  padding: 20rpx;
+}
+.role-manage .role-container .role-list .section-title.data-v-62f23709 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  border-left: 6rpx solid #399bfe;
+}
+.role-manage .role-container .role-list .role-item.data-v-62f23709 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #eee;
+}
+.role-manage .role-container .role-list .role-item.data-v-62f23709:last-child {
+  border-bottom: none;
+}
+.role-manage .role-container .role-list .role-item.role-item-user.data-v-62f23709 {
+  background-color: #f8f8f8;
+}
+.role-manage .role-container .role-list .role-item .role-info .role-name.data-v-62f23709 {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 6rpx;
+}
+.role-manage .role-container .role-list .role-item .role-info .role-desc.data-v-62f23709 {
+  font-size: 24rpx;
+  color: #999;
+}
+.role-manage .role-container .role-list .role-item .role-info .role-default-badge.data-v-62f23709 {
+  display: inline-block;
+  font-size: 20rpx;
+  padding: 2rpx 10rpx;
+  background-color: #e1f5fe;
+  color: #399bfe;
+  border-radius: 20rpx;
+  margin-top: 6rpx;
+}
+.role-manage .role-container .role-list .role-item .switch-disabled.data-v-62f23709 {
+  opacity: 0.6;
+}
+.role-manage .role-container .tips.data-v-62f23709 {
+  padding: 20rpx;
+  background-color: #f9f9f9;
+}
+.role-manage .role-container .tips .tip-item.data-v-62f23709 {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 1.6;
+}

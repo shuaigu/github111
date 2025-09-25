@@ -1,0 +1,207 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+.my.data-v-2f1ef635 {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  /*头部*/
+  /*内容*/
+}
+.my .myHead.data-v-2f1ef635 {
+  display: flex;
+  align-items: center;
+  padding: 40rpx 30rpx;
+  height: 320rpx;
+  color: #fff;
+  background: linear-gradient(135deg, #46b0fe, #6385ff);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  /*头像*/
+  /* 微信头像选择按钮样式 */
+  /*未登录*/
+  /*已登录*/
+}
+.my .myHead.data-v-2f1ef635::before {
+  content: "";
+  position: absolute;
+  top: -100rpx;
+  right: -100rpx;
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+}
+.my .myHead.data-v-2f1ef635::after {
+  content: "";
+  position: absolute;
+  bottom: -150rpx;
+  left: -100rpx;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 0;
+}
+.my .myHead .avatar.data-v-2f1ef635 {
+  margin-right: 30rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 4rpx solid rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.15);
+}
+.my .myHead .avatar image.data-v-2f1ef635 {
+  width: 100%;
+  height: 100%;
+}
+.my .myHead .avatar .edit-icon.data-v-2f1ef635 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my .myHead .avatar-button.data-v-2f1ef635 {
+  padding: 0;
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 30rpx;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+.my .myHead .avatar-button.data-v-2f1ef635::after {
+  border: none;
+}
+.my .myHead .login-btn.data-v-2f1ef635 {
+  font-size: 36rpx;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 16rpx 40rpx;
+  border-radius: 40rpx;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.my .myHead .login-btn.data-v-2f1ef635:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.my .myHead .userInfo.data-v-2f1ef635 {
+  z-index: 1;
+}
+.my .myHead .userInfo .nickname.data-v-2f1ef635 {
+  font-size: 36rpx;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rpx;
+  max-width: 450rpx;
+}
+.my .myHead .userInfo .nickname .nickname-text.data-v-2f1ef635 {
+  max-width: 340rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.my .myHead .userInfo .nickname .nickname-input.data-v-2f1ef635 {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  max-width: 340rpx;
+  min-width: 140rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 10rpx;
+}
+.my .myHead .userInfo .nickname .nickname-input.data-v-2f1ef635::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 32rpx;
+}
+.my .myHead .userInfo .nickname .nickname-input.data-v-2f1ef635::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 32rpx;
+}
+.my .myHead .userInfo .mobile.data-v-2f1ef635 {
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+.my .myContent.data-v-2f1ef635 {
+  position: relative;
+  padding: 30rpx;
+  margin-top: -40rpx;
+  border-radius: 32rpx 32rpx 0 0;
+  background-color: #f7f7f7;
+  min-height: calc(100vh - 320rpx + 40rpx);
+  z-index: 2;
+  /*菜单项*/
+  /*icon的公共样式*/
+  /*版本信息*/
+}
+.my .myContent .menu-list.data-v-2f1ef635 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  margin-bottom: 30rpx;
+}
+.my .myContent .logout-section.data-v-2f1ef635 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  margin-bottom: 30rpx;
+}
+.my .myContent .logout-section .logout .value.data-v-2f1ef635 {
+  color: #ff6b6b;
+}
+.my .myContent .menu-item.data-v-2f1ef635 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32rpx 30rpx;
+  position: relative;
+  transition: all 0.3s;
+}
+.my .myContent .menu-item.data-v-2f1ef635:active {
+  background-color: #f9f9f9;
+}
+.my .myContent .menu-item.data-v-2f1ef635:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 0;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+.my .myContent .left.data-v-2f1ef635 {
+  display: flex;
+  align-items: center;
+}
+.my .myContent .left .value.data-v-2f1ef635 {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+.my .myContent .version-info.data-v-2f1ef635 {
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 60rpx;
+  padding: 20rpx 0;
+}

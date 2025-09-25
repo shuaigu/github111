@@ -1,0 +1,62 @@
+{
+	"bsonType": "object",
+	"required": ["article_id", "positions"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"article_id": {
+			"bsonType": "string",
+			"description": "关联的文章ID",
+			"title": "文章ID",
+			"trim": "both"
+		},
+		"positions": {
+			"bsonType": "array",
+			"description": "九宫格位置用户数据",
+			"title": "位置数据",
+			"maxItems": 9,
+			"items": {
+				"bsonType": "object",
+				"properties": {
+					"_id": {
+						"bsonType": "string",
+						"description": "用户评论ID"
+					},
+					"user_id": {
+						"bsonType": "string",
+						"description": "用户ID"
+					},
+					"nickName": {
+						"bsonType": "string",
+						"description": "用户昵称"
+					},
+					"avatarUrl": {
+						"bsonType": "string",
+						"description": "用户头像URL"
+					},
+					"mobile": {
+						"bsonType": "string",
+						"description": "用户手机号"
+					}
+				}
+			}
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"title": "创建时间"
+		},
+		"update_time": {
+			"bsonType": "timestamp",
+			"description": "更新时间",
+			"title": "更新时间"
+		}
+	}
+} 

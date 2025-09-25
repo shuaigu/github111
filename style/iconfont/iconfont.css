@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "icon"; /* Project id 4857955 */
+  src: url('iconfont.woff2?t=1742608425446') format('woff2'),
+       url('iconfont.woff?t=1742608425446') format('woff'),
+       url('iconfont.ttf?t=1742608425446') format('truetype');
+}
+
+.icon {
+  font-family: "icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lishuai-zhuanfa:before {
+  content: "\e63b";
+}
+
+.lishuai-fenxiang:before {
+  content: "\e604";
+}
+
+.lishuai-a-00jichuiconkongzhuangtaiwuneirong:before {
+  content: "\e7bf";
+}
+
+.lishuai-check-circle:before {
+  content: "\e77d";
+}
+
+.lishuai-plus-circle:before {
+  content: "\e781";
+}
+
+.lishuai-play-circle:before {
+  content: "\e782";
+}
+
+.lishuai-appstore:before {
+  content: "\e792";
+}
+
+.lishuai-like:before {
+  content: "\e7c8";
+}
+
+.lishuai-image:before {
+  content: "\e7de";
+}
+
+.lishuai-ditu-dibiao:before {
+  content: "\ec3f";
+}
+
+.lishuai-dianhua:before {
+  content: "\e65a";
+}
+
+.lishuai-qianshuxieyi:before {
+  content: "\e61d";
+}
+
+.lishuai-weixin:before {
+  content: "\e63c";
+}
+
+.lishuai-iconfontzhizuobiaozhunbduan36:before {
+  content: "\e6e9";
+}
+
+.lishuai-shipin:before {
+  content: "\e62d";
+}
+
+.lishuai-aixin:before {
+  content: "\e8ab";
+}
+
+.lishuai-shanchu:before {
+  content: "\e8b6";
+}
+
+.lishuai-shezhi:before {
+  content: "\e8b7";
+}
+
+.lishuai-shouji:before {
+  content: "\e8b9";
+}
+
+.lishuai-xiangji:before {
+  content: "\e8bc";
+}
+
+.lishuai-WIFI:before {
+  content: "\e8c1";
+}
+
+.lishuai-dingwei:before {
+  content: "\e8c4";
+}
+

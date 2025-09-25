@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "文章详情",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "tuijian": "../../components/tuijian/tuijian",
+    "comment-list": "../../components/comment-list/comment-list",
+    "lottery-draw": "../../components/articleDetail-choujia/articleDetail-choujia",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

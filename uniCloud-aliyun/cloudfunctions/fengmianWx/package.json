@@ -1,0 +1,8 @@
+{
+  "name": "fengMian",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {},
+    "uni-cloud-ext-storage": {}
+  }
+}

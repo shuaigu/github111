@@ -1,0 +1,1 @@
+<view class="{{['webview-container', 'data-v-deb32cb9', virtualHostClass]}}" style="{{virtualHostStyle}}" hidden="{{virtualHostHidden || false}}" id="{{b}}"><web-view class="data-v-deb32cb9" src="{{a}}"></web-view></view>

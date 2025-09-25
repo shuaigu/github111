@@ -1,0 +1,183 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+/*朋友圈动态*/
+.pyqContent.data-v-caed195d {
+  flex: 1;
+  margin-bottom: 2rpx;
+  padding: 24rpx;
+  background-color: #fff;
+  /* 显示详情按钮 */
+  /*头部-用户基本信息*/
+  /*内容-发布文字内容*/
+  /*文字内容*/
+  /*发布的图片*/
+  /*朋友圈动态操作功能区*/
+}
+.pyqContent .detail-btn.data-v-caed195d {
+  padding: 8rpx 20rpx;
+  background-color: #1890ff;
+  color: #ffffff;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+}
+.pyqContent .pyq-head.data-v-caed195d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*左侧用户信息*/
+  /*顶部右侧功能*/
+}
+.pyqContent .pyq-head .left.data-v-caed195d {
+  display: flex;
+  align-items: center;
+  /*头像*/
+}
+.pyqContent .pyq-head .left.disabled.data-v-caed195d {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+.pyqContent .pyq-head .left .userAvatar.data-v-caed195d {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.pyqContent .pyq-head .left .userAvatar .avatar-image.data-v-caed195d {
+  width: 100%;
+  height: 100%;
+}
+.pyqContent .pyq-head .left .info.data-v-caed195d {
+  margin: 0 16rpx;
+  /*定位*/
+}
+.pyqContent .pyq-head .left .info .top.data-v-caed195d {
+  display: flex;
+  /*昵称*/
+  /*审核样式*/
+}
+.pyqContent .pyq-head .left .info .top .nickName.data-v-caed195d {
+  background-image: linear-gradient(to left, #399bfe, #1e3799);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 28rpx;
+}
+.pyqContent .pyq-head .left .info .top .examine.data-v-caed195d {
+  margin-left: 16rpx;
+  color: #fa8c16;
+}
+.pyqContent .pyq-head .left .info .address.data-v-caed195d {
+  font-size: 28rpx;
+  color: #999999;
+  display: flex;
+  align-items: center;
+}
+.pyqContent .pyq-head .left .info .address .address-text.data-v-caed195d {
+  margin-left: 4rpx;
+}
+.pyqContent .pyq-head .left .info .address .time-divider.data-v-caed195d {
+  margin: 0 8rpx;
+  color: #999999;
+}
+.pyqContent .pyq-head .left .info .address .time-text.data-v-caed195d {
+  color: #999999;
+}
+.pyqContent .pyq-head .right.data-v-caed195d {
+  display: flex;
+  align-items: center;
+}
+.pyqContent .pyq-head .right .operation.data-v-caed195d {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.pyqContent .pyq-head .right .operation .action-btn.data-v-caed195d {
+  padding: 20rpx;
+  cursor: pointer;
+}
+.pyqContent .pyq-head .right .operation .action-btn.data-v-caed195d:active {
+  opacity: 0.7;
+}
+.pyqContent .pyq-c.data-v-caed195d {
+  margin-left: 96rpx;
+  font-size: 32rpx;
+  color: #444444;
+  cursor: pointer;
+}
+.pyqContent .pyq-c.data-v-caed195d:active {
+  opacity: 0.7;
+}
+.pyqContent .text-content.data-v-caed195d {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  /* 这里的数字表示你希望显示的行数 */
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  margin-bottom: 16rpx;
+}
+.pyqContent .pyq-img.data-v-caed195d {
+  margin-left: 96rpx;
+}
+.pyqContent .pyq-img .single-img.data-v-caed195d {
+  width: 300rpx;
+  min-height: 100rpx;
+  max-height: 600rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.pyqContent .pyq-img .single-img .single-img-item.data-v-caed195d {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.pyqContent .pyq-img .multi-img .img-grid.data-v-caed195d {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+}
+.pyqContent .pyq-img .multi-img .img-grid .grid-item.data-v-caed195d {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 8rpx;
+}
+.pyqContent .pyq-img .multi-img .img-grid.grid-4.data-v-caed195d {
+  width: 420rpx;
+}
+.pyqContent .pyq-img .multi-img .img-grid.grid-9.data-v-caed195d {
+  width: 630rpx;
+}
+.pyqContent .pyq-gn.data-v-caed195d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24rpx;
+  padding-left: 96rpx;
+  /*左侧区域，可以放置其他内容或保留空白 */
+  /*右侧功能区 - 只显示浏览量 */
+}
+.pyqContent .pyq-gn .left-area .video-info.data-v-caed195d {
+  display: flex;
+  align-items: center;
+}
+.pyqContent .pyq-gn .left-area .video-info .uni-icons.data-v-caed195d {
+  position: relative;
+  top: 2rpx;
+}
+.pyqContent .pyq-gn .right.data-v-caed195d {
+  display: flex;
+  align-items: center;
+  /*浏览量*/
+}
+.pyqContent .pyq-gn .right .publicTime.data-v-caed195d {
+  font-size: 24rpx;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+}

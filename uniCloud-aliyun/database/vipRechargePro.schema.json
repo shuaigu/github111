@@ -1,0 +1,32 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [ ],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"price": {
+			"bsonType": "int",
+			"description": "充值金额"
+		},
+		"label": {
+			"bsonType": "string",
+			"description": "文本"
+		},
+		"dec": {
+			"bsonType": "string",
+			"description": "描述"
+		},
+		"selected": {
+			"bsonType": "bool",
+			"description": "是否选中"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+.company-container.data-v-62e28e12 {
+  padding: 40rpx;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+.company-card.data-v-62e28e12 {
+  background-color: #ffffff;
+  border-radius: 24rpx;
+  padding: 48rpx;
+  box-shadow: 0 4rpx 24rpx rgba(0, 0, 0, 0.05);
+}
+.company-header.data-v-62e28e12 {
+  text-align: center;
+  margin-bottom: 64rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #cccccc;
+}
+.company-header .company-name.data-v-62e28e12 {
+  display: block;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #444444;
+  margin-bottom: 16rpx;
+}
+.company-header .company-slogan.data-v-62e28e12 {
+  font-size: 28rpx;
+  color: #555555;
+}
+.info-section .info-item.data-v-62e28e12 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 48rpx;
+}
+.info-section .info-item.data-v-62e28e12:last-child {
+  margin-bottom: 0;
+}
+.info-section .info-item .icon.data-v-62e28e12 {
+  font-size: 20px;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+.info-section .info-item .info-content.data-v-62e28e12 {
+  flex: 1;
+  margin-left: 16rpx;
+}
+.info-section .info-item .info-content .label.data-v-62e28e12 {
+  display: block;
+  font-size: 32rpx;
+  margin-bottom: 8rpx;
+  color: #555555;
+}
+.info-section .info-item .info-content .value.data-v-62e28e12 {
+  display: block;
+  font-size: 28rpx;
+  color: #999999;
+  line-height: 1.5;
+}

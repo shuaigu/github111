@@ -1,0 +1,45 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [ ],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"state": {
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"publishButton": {
+			"bsonType": "bool",
+			"description": "发布按钮状态",
+			"defaultValue": true
+		},
+		"floatButton": {
+			"bsonType": "bool",
+			"description": "悬浮按钮状态",
+			"defaultValue": true
+		},
+		"avatarClick": {
+			"bsonType": "bool",
+			"description": "头像点击状态",
+			"defaultValue": true
+		},
+		"commentVisibility": {
+			"bsonType": "bool",
+			"description": "评论功能显示状态",
+			"defaultValue": true
+		},
+		"lotteryVisibility": {
+			"bsonType": "bool",
+			"description": "抽奖模块显示状态",
+			"defaultValue": true
+		}
+	}
+}

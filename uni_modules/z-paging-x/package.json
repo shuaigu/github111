@@ -1,0 +1,88 @@
+{
+  "id": "z-paging-x",
+  "name": "z-paging-x",
+  "displayName": "【z-paging-x下拉刷新、上拉加载】z-paging uniappx版已上线！",
+  "version": "0.3.1",
+  "description": "分页全自动处理，支持自定义下拉刷新、上拉加载更多、自动管理空数据图、点击返回顶部、下拉显示最后更新时间等，持续完善中",
+  "keywords": [
+    "uniapp-x",
+    "z-paging",
+    "分页",
+    "下拉刷新",
+    "上拉加载"
+],
+  "repository": "https://github.com/SmileZXLee/uni-z-paging-x",
+  "engines": {
+    "HBuilderX": "^3.99"
+  },
+  "dcloudext": {
+    "type": "component-uts",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": "393727164"
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "无",
+      "permissions": "无"
+    },
+    "npmurl": "https://www.npmjs.com/package/z-paging-x"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "n"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "n",
+          "vue3": "y"
+        },
+        "App": {
+            "app-android": "u",
+            "app-harmony": "u",
+            "app-ios": "u"
+        },
+        "H5-mobile": {
+          "Safari": "u",
+          "Android Browser": "u",
+          "微信浏览器(Android)": "u",
+          "QQ浏览器(Android)": "u"
+        },
+        "H5-pc": {
+          "Chrome": "u",
+          "IE": "u",
+          "Edge": "u",
+          "Firefox": "u",
+          "Safari": "u"
+        },
+        "小程序": {
+          "微信": "u",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u",
+          "钉钉": "u",
+          "快手": "u",
+          "飞书": "u",
+          "京东": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}

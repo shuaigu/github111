@@ -1,0 +1,7 @@
+{
+  "name": "choujiangWx",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

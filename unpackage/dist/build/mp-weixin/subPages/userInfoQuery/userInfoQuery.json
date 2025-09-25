@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用户信息查询",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

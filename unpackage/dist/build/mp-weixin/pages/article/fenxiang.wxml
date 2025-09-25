@@ -1,0 +1,1 @@
+<button open-type="share">菜单分享</button><button bindtap="{{a}}">按钮触发</button>

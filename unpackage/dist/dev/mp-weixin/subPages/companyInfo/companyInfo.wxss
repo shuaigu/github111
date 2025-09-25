@@ -1,0 +1,63 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+.company-info.data-v-a4ff917f {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  padding: 24rpx;
+}
+.info-form.data-v-a4ff917f {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 32rpx;
+}
+.info-form .form-item.data-v-a4ff917f {
+  margin-bottom: 32rpx;
+}
+.info-form .form-item .label.data-v-a4ff917f {
+  display: block;
+  font-size: 28rpx;
+  color: #444444;
+  margin-bottom: 16rpx;
+}
+.info-form .form-item .input.data-v-a4ff917f {
+  width: 100%;
+  height: 80rpx;
+  background-color: #f5f7fa;
+  border-radius: 8rpx;
+  padding: 0 24rpx;
+  font-size: 28rpx;
+  color: #444444;
+  box-sizing: border-box;
+}
+.info-form .form-item .input.data-v-a4ff917f::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.info-form .form-item .input.data-v-a4ff917f::placeholder {
+  color: #cccccc;
+}
+.info-form .save-btn.data-v-a4ff917f {
+  margin-top: 48rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: #399bfe;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.info-form .save-btn[disabled].data-v-a4ff917f {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.info-form .save-btn.data-v-a4ff917f:active {
+  opacity: 0.8;
+}

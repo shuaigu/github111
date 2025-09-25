@@ -1,0 +1,159 @@
+{
+    "bsonType": "object",
+    "required": [
+        "user_id",
+        "content",
+        "create_time"
+    ],
+    "permission": {
+        "read": true,
+        "create": "auth.uid != null",
+        "update": "auth.uid != null",
+        "delete": "auth.uid != null"
+    },
+    "properties": {
+        "_id": {
+            "description": "ID，系统自动生成"
+        },
+        "user_id": {
+            "bsonType": "string",
+            "description": "发布者ID",
+            "foreignKey": "user._id"
+        },
+        "user_nickName": {
+            "bsonType": "string",
+            "description": "发布者昵称"
+        },
+        "user_avatarUrl": {
+            "bsonType": "string",
+            "description": "发布者头像"
+        },
+        "user_mobile": {
+            "bsonType": "string",
+            "description": "发布者电话"
+        },
+        "content": {
+            "bsonType": "string",
+            "description": "文章内容",
+            "maxLength": 500,
+            "trim": "both"
+        },
+        "images": {
+            "bsonType": "array",
+            "description": "图片列表",
+            "maxItems": 9,
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "url": {
+                        "bsonType": "string",
+                        "description": "原图URL"
+                    },
+                    "compressedURL": {
+                        "bsonType": "string",
+                        "description": "压缩图URL"
+                    },
+                    "thumbnailURL": {
+                        "bsonType": "string",
+                        "description": "缩略图URL"
+                    }
+                }
+            }
+        },
+        "videoURL": {
+            "bsonType": "string",
+            "description": "视频地址"
+        },
+        "address": {
+            "bsonType": "string",
+            "description": "发布地址",
+            "trim": "both"
+        },
+        "district": {
+            "bsonType": "string",
+            "description": "区县"
+        },
+        "cate_id": {
+            "bsonType": "string",
+            "description": "分类ID",
+            "foreignKey": "cateList._id"
+        },
+        "like_count": {
+            "bsonType": "int",
+            "description": "点赞数"
+        },
+        "look_count": {
+            "bsonType": "int",
+            "description": "阅读量",
+            "minimum": 0,
+            "defaultValue": 0
+        },
+        "comment_count": {
+            "bsonType": "int",
+            "description": "评论数量",
+            "minimum": 0,
+            "defaultValue": 0
+        },
+        "comment_likes": {
+            "bsonType": "array",
+            "description": "评论点赞记录",
+            "items": {
+                "bsonType": "object",
+                "required": [
+                    "comment_id",
+                    "user_id",
+                    "create_time"
+                ],
+                "properties": {
+                    "comment_id": {
+                        "bsonType": "string",
+                        "description": "被点赞的评论ID"
+                    },
+                    "user_id": {
+                        "bsonType": "string",
+                        "description": "点赞用户ID",
+                        "foreignKey": "user._id"
+                    },
+                    "user_mobile": {
+                        "bsonType": "string",
+                        "description": "点赞用户手机号",
+                        "foreignKey": "user.mobile"
+                    },
+                    "create_time": {
+                        "bsonType": "timestamp",
+                        "description": "点赞时间",
+                        "defaultValue": {
+                            "$env": "now"
+                        }
+                    }
+                }
+            }
+        },
+        "create_time": {
+            "bsonType": "timestamp",
+            "description": "创建时间",
+            "defaultValue": {
+                "$env": "now"
+            }
+        },
+        "state": {
+            "bsonType": "int",
+            "description": "状态：0-待审核 1-已通过 2-已拒绝",
+            "minimum": 0,
+            "maximum": 2,
+            "defaultValue": 1
+        },
+        "reject_reason": {
+            "bsonType": "string",
+            "description": "拒绝原因",
+            "trim": "both"
+        },
+        "update_time": {
+            "bsonType": "timestamp",
+            "description": "更新时间",
+            "defaultValue": {
+                "$env": "now"
+            }
+        }
+    }
+}

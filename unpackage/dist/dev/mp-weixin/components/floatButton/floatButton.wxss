@@ -1,0 +1,18 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+.float-button.data-v-c199bce7 {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #399bfe;
+  border-radius: 50%;
+  box-shadow: 0 3rpx 20rpx rgba(0, 0, 0, 0.15);
+}

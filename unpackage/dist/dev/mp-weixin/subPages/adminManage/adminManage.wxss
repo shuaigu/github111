@@ -1,0 +1,63 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+/*防止分包页面公共样式无法读取*/
+page.data-v-b5b6feed,
+view.data-v-b5b6feed,
+text.data-v-b5b6feed,
+image.data-v-b5b6feed,
+button.data-v-b5b6feed {
+  font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+image.data-v-b5b6feed {
+  width: 100%;
+  height: 100%;
+}
+.adminManage.data-v-b5b6feed {
+  padding: 24rpx;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+.adminManage .content.data-v-b5b6feed {
+  border-radius: 24rpx;
+  background-color: #fff;
+}
+.adminManage .content .item.data-v-b5b6feed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.adminManage .content .item.data-v-b5b6feed:nth-last-child(1) {
+  border: none;
+}
+.adminManage .content .item .left.data-v-b5b6feed {
+  display: flex;
+  align-items: center;
+}
+.adminManage .content .item .left .box.data-v-b5b6feed {
+  margin-right: 16rpx;
+  height: 24rpx;
+  width: 8rpx;
+  background-color: #399bfe;
+  border-radius: 4rpx;
+}
+.adminManage .content .item .left .value.data-v-b5b6feed {
+  font-size: 28rpx;
+  color: #444444;
+}
+.adminManage .content .item .switch-container.data-v-b5b6feed {
+  padding: 0 10rpx;
+}

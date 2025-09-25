@@ -1,0 +1,1 @@
+"use strict";exports.formatTime=e=>{const t=Date.now()-e;if(t<6e4)return"刚刚";if(t<36e5)return Math.floor(t/6e4)+"分钟前";if(t<864e5)return Math.floor(t/36e5)+"小时前";if(t<2592e6)return Math.floor(t/864e5)+"天前";const r=new Date(e);return`${r.getMonth()+1}月${r.getDate()}日`};

@@ -1,0 +1,108 @@
+{
+    "bsonType": "object",
+    "required": [
+        "cate_name"
+    ],
+    "permission": {
+        "read": true,
+        "create": true,
+        "update": true,
+        "delete": true
+    },
+    "properties": {
+        "_id": {
+            "description": "ID，系统自动生成"
+        },
+        "cate_name": {
+            "bsonType": "string",
+            "description": "分类名称",
+            "title": "分类名称",
+            "trim": "both",
+            "minLength": 1,
+            "maxLength": 20
+        },
+        "cate_img": {
+            "bsonType": "string",
+            "description": "分类图片URL",
+            "title": "分类图片"
+           
+        },
+        "sort": {
+            "bsonType": "int",
+            "description": "排序权重，数字越大越靠前",
+            "title": "排序",
+            "defaultValue": 0
+        },
+        "is_visible": {
+            "bsonType": "bool",
+            "description": "是否显示该分类",
+            "title": "是否显示",
+            "defaultValue": true
+        },
+        "create_time": {
+            "bsonType": "timestamp",
+            "description": "创建时间（时间戳，毫秒）",
+            "title": "创建时间",
+            "defaultValue": {
+				"$env": "now"
+			}
+        },
+        "update_time": {
+            "bsonType": "timestamp",
+            "description": "更新时间（时间戳，毫秒）",
+            "title": "更新时间",
+            "defaultValue": {
+				"$env": "now"
+			}
+        },
+        "is_location_based": {
+            "bsonType": "bool",
+            "description": "是否基于位置信息自动创建的分类",
+            "title": "位置分类",
+            "defaultValue": false
+        },
+        "location_district": {
+            "bsonType": "string",
+            "description": "对应的区域名称",
+            "title": "区域名称"
+        }
+    },
+    "indexes": [
+        {
+            "IndexName": "sort_index",
+            "MgoKeySchema": {
+                "MgoIndexKeys": [
+                    {
+                        "Name": "sort",
+                        "Direction": -1
+                    }
+                ],
+                "MgoIsUnique": false
+            }
+        },
+        {
+            "IndexName": "cate_name_index",
+            "MgoKeySchema": {
+                "MgoIndexKeys": [
+                    {
+                        "Name": "cate_name",
+                        "Direction": 1
+                    }
+                ],
+                "MgoIsUnique": true
+            }
+        },
+        {
+            "IndexName": "location_district_index",
+            "MgoKeySchema": {
+                "MgoIndexKeys": [
+                    {
+                        "Name": "location_district",
+                        "Direction": 1
+                    }
+                ],
+                "MgoIsUnique": false
+            }
+        }
+    ]
+}

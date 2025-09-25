@@ -1,0 +1,186 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@/uni_modules/uni-$1/components/uni-$1/uni-$1.vue",
+			"^u-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"componentPlaceholder": {
+		"uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+		"manage-popup": "/components/manage-popup/manage-popup",
+		"floatButton": "/components/floatButton/floatButton"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "酒旅圈圈",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/article/articleDetail",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/userArticleList/userArticleList",
+			"style": {
+				"navigationBarTitleText": "我的朋友圈"
+			}
+		},
+		{
+			"path": "pages/fabu/fabu",
+			"style": {
+				"navigationBarTitleText": "发布内容"
+			}
+		},
+		{
+			"path": "pages/video-preview/video-preview",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"backgroundColor": "#000000"
+			}
+		},
+		{
+			"path": "pages/liaotian/liaotian",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/article/fenxiang",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"subPackages": [ {
+		"root": "subPages",
+		"pages": [ {
+				"path": "contarct/contarct",
+				"style": {
+					"navigationBarTitleText": "个人中心"
+				}
+			},
+			{
+				"path": "feedBack/feedBack",
+				"style": {
+					"navigationBarTitleText": "个人中心"
+				}
+			},
+			{
+				"path": "adminManage/adminManage",
+				"style": {
+					"navigationBarTitleText": "后台管理"
+				}
+			},
+			{
+				"path": "cateManage/cateManage",
+				"style": {
+					"navigationBarTitleText": "分类管理"
+				}
+			},
+			{
+				"path": "articleManage/articleManage",
+				"style": {
+					"navigationBarTitleText": "文章管理"
+				}
+			},
+			{
+				"path": "feedManage/feedManage",
+				"style": {
+					"navigationBarTitleText": "反馈管理"
+				}
+			},
+			{
+				"path": "companyInfo/companyInfo",
+				"style": {
+					"navigationBarTitleText": "公司信息"
+				}
+			},
+			{
+				"path": "userInfoQuery/userInfoQuery",
+				"style": {
+					"navigationBarTitleText": "用户信息查询"
+				}
+			},
+			{
+				"path": "userDetail/userDetail",
+				"style": {
+					"navigationBarTitleText": "用户详情"
+				}
+			},
+			{
+				"path": "userRoleManage/userRoleManage",
+				"style": {
+					"navigationBarTitleText": "角色管理"
+				}
+			},
+			{
+				"path" : "qiniuyun/qiniuyun",
+				"style" : 
+				{
+					"navigationBarTitleText" : ""
+				}
+			},
+			{
+				"path" : "subChoujiang/subChoujiang",
+				"style" : 
+				{
+					"navigationBarTitleText" : ""
+				}
+			}
+		]
+	} ],
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#399bfe",
+		"borderStyle": "black",
+		"list": [ {
+				"iconPath": "static/tabBar/info.png",
+				"selectedIconPath": "static/tabBar/info_selected.png",
+				"pagePath": "pages/index/index",
+				"text": "信息"
+			},
+			{
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_selected.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "酒旅圈圈",
+		"navigationBarBackgroundColor": "#399bfe",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

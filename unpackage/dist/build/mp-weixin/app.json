@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/webview/webview",
+    "pages/article/articleDetail",
+    "pages/userArticleList/userArticleList",
+    "pages/fabu/fabu",
+    "pages/video-preview/video-preview",
+    "pages/liaotian/liaotian",
+    "pages/article/fenxiang"
+  ],
+  "subPackages": [
+    {
+      "root": "subPages",
+      "pages": [
+        "contarct/contarct",
+        "feedBack/feedBack",
+        "adminManage/adminManage",
+        "cateManage/cateManage",
+        "articleManage/articleManage",
+        "feedManage/feedManage",
+        "companyInfo/companyInfo",
+        "userInfoQuery/userInfoQuery",
+        "userDetail/userDetail",
+        "userRoleManage/userRoleManage",
+        "qiniuyun/qiniuyun",
+        "subChoujiang/subChoujiang"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "酒旅圈圈",
+    "navigationBarBackgroundColor": "#399bfe",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#399bfe",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "static/tabBar/info.png",
+        "selectedIconPath": "static/tabBar/info_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "信息"
+      },
+      {
+        "iconPath": "static/tabBar/my.png",
+        "selectedIconPath": "static/tabBar/my_selected.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseAddress",
+    "chooseLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "发布文章获取位置"
+    }
+  },
+  "usingComponents": {}
+}

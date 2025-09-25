@@ -1,0 +1,12 @@
+{
+  "name": "imageService",
+  "version": "1.0.0",
+  "description": "云函数图像处理服务",
+  "main": "index.obj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+} 

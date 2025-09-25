@@ -1,0 +1,92 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+.u-empty.data-v-41713600,
+.u-empty__wrap.data-v-41713600,
+.u-tabs.data-v-41713600,
+.u-tabs__wrapper.data-v-41713600,
+.u-tabs__wrapper__scroll-view-wrapper.data-v-41713600,
+.u-tabs__wrapper__scroll-view.data-v-41713600,
+.u-tabs__wrapper__nav.data-v-41713600,
+.u-tabs__wrapper__nav__line.data-v-41713600,
+.up-empty.data-v-41713600,
+.up-empty__wrap.data-v-41713600,
+.up-tabs.data-v-41713600,
+.up-tabs__wrapper.data-v-41713600,
+.up-tabs__wrapper__scroll-view-wrapper.data-v-41713600,
+.up-tabs__wrapper__scroll-view.data-v-41713600,
+.up-tabs__wrapper__nav.data-v-41713600,
+.up-tabs__wrapper__nav__line.data-v-41713600 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-checkbox.data-v-41713600 {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.u-checkbox-label--left.data-v-41713600 {
+  flex-direction: row;
+}
+.u-checkbox-label--right.data-v-41713600 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.u-checkbox__icon-wrap.data-v-41713600 {
+  box-sizing: border-box;
+  transition-property: border-color, background-color, color;
+  transition-duration: 0.2s;
+  color: #606266;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  text-align: center;
+  margin-right: 6px;
+  font-size: 6px;
+  border-width: 1px;
+  border-color: #c8c9cc;
+  border-style: solid;
+}
+.u-checkbox__icon-wrap--circle.data-v-41713600 {
+  border-radius: 100%;
+}
+.u-checkbox__icon-wrap--square.data-v-41713600 {
+  border-radius: 3px;
+}
+.u-checkbox__icon-wrap--checked.data-v-41713600 {
+  color: #fff;
+  background-color: red;
+  border-color: #2979ff;
+}
+.u-checkbox__icon-wrap--disabled.data-v-41713600 {
+  background-color: #ebedf0 !important;
+}
+.u-checkbox__icon-wrap--disabled--checked.data-v-41713600 {
+  color: #c8c9cc !important;
+}
+.u-checkbox__label.data-v-41713600 {
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 12px;
+  color: #606266;
+  font-size: 15px;
+}
+.u-checkbox__label--disabled.data-v-41713600 {
+  color: #c8c9cc;
+}

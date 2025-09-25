@@ -1,0 +1,62 @@
+/* uni.scss */
+@import '@/uni_modules/uview-plus/theme.scss';
+/* 主题色 */
+$pyq-vi-color:#399bfe;
+
+/* 页面背景颜色 */
+$pyq-pages-bg-color:#f7f7f7;
+
+/* 边框颜色 -- 分割线  */
+$pyq-border-color-translucent: rgba(0, 0, 0, 0.1);
+
+$pyq-text-color-title: #333333; // 深色，标题
+$pyq-text-color-subtitle: #666666; // 中性色，副标题
+$pyq-text-color-body: #444444; // 深灰色，正文
+$pyq-text-color-body-secondary: #555555; // 次要文字
+$pyq-text-color-helper: #999999; // 辅助信息或描述
+$pyq-text-color-placeholder: #cccccc; // 输入框的占位符文字
+$pyq-text-color-warning: #e65c00; // 警告信息
+$pyq-text-color-error: #d9534f; // 错误信息
+$pyq-text-color-success: #5cb85c; // 成功信息
+
+/*功能设置*/ 
+@mixin optionalCommon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 24rpx;
+	border-top: 1px solid $pyq-border-color-translucent;
+}
+
+/*文字渐变*/
+@mixin gradientText {
+    background-image: linear-gradient(to left, $pyq-vi-color, #1e3799);
+    -webkit-background-clip: text;
+    color: transparent;
+} 
+
+// 文字省略
+@mixin textShenglue ( $num:none) {
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: #{$num}; /* 这里的数字表示你希望显示的行数 */
+      -webkit-box-orient: vertical;
+      white-space: normal;
+}
+
+/*页面默认样式*/
+ @mixin pagesBaseStyle {
+	padding: 24rpx;
+ 	height: 100vh;
+ 	overflow: hidden;
+ 	background-color: $pyq-pages-bg-color;
+ }
+ 
+ /*信息默认样式*/
+	@mixin textBaseStyle {
+		margin-right: 24rpx;
+		text-align: center;
+		font-size: 32rpx;
+		color: $pyq-text-color-body;
+	}

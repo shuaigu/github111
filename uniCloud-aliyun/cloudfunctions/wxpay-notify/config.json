@@ -1,0 +1,6 @@
+{
+    "httpTrigger": {
+        "path": "/wxpay-notify",
+        "method": "POST"
+    }
+} 

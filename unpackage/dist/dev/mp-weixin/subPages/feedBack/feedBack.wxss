@@ -1,0 +1,122 @@
+/* uni.scss */
+/* 主题色 */
+/* 页面背景颜色 */
+/* 边框颜色 -- 分割线  */
+/*功能设置*/
+/*文字渐变*/
+/*页面默认样式*/
+/*信息默认样式*/
+/* 页面整体容器样式 */
+.feedback-container.data-v-62a65bfd {
+  padding: 24rpx 24rpx 160rpx 24rpx;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* 反馈表单卡片样式 */
+.feedback-card.data-v-62a65bfd {
+  background-color: #ffffff;
+  border-radius: 24rpx;
+  padding: 48rpx;
+  box-shadow: 0 4rpx 24rpx rgba(0, 0, 0, 0.05);
+}
+
+/* 标题区域样式 */
+.feedback-header.data-v-62a65bfd {
+  text-align: center;
+  margin-bottom: 64rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #cccccc;
+}
+.feedback-header .feedback-title.data-v-62a65bfd {
+  display: block;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #444444;
+  margin-bottom: 16rpx;
+}
+.feedback-header .feedback-desc.data-v-62a65bfd {
+  font-size: 28rpx;
+  color: #555555;
+}
+
+/* 反馈内容区域样式 */
+.feedback-section .feedback-item.data-v-62a65bfd {
+  margin-bottom: 48rpx;
+  /* 反馈类型标签组 */
+  /* 文本域样式 */
+  /* 输入框样式 */
+}
+.feedback-section .feedback-item .label.data-v-62a65bfd {
+  display: block;
+  font-size: 32rpx;
+  color: #555555;
+  margin-bottom: 24rpx;
+}
+.feedback-section .feedback-item .type-group.data-v-62a65bfd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24rpx;
+}
+.feedback-section .feedback-item .type-group .type-tag.data-v-62a65bfd {
+  padding: 16rpx 32rpx;
+  border-radius: 32rpx;
+  font-size: 28rpx;
+  color: #555555;
+  background-color: #f5f7fa;
+  border: 2rpx solid transparent;
+}
+.feedback-section .feedback-item .type-group .type-tag.active.data-v-62a65bfd {
+  color: #399bfe;
+  background-color: rgba(57, 155, 254, 0.1);
+  border-color: #399bfe;
+}
+.feedback-section .feedback-item .feedback-textarea.data-v-62a65bfd {
+  width: 100%;
+  height: 240rpx;
+  padding: 24rpx !important;
+  border-radius: 16rpx;
+  background-color: #f5f7fa;
+  font-size: 28rpx;
+  color: #444444;
+  box-sizing: border-box;
+}
+.feedback-section .feedback-item .contact-input.data-v-62a65bfd {
+  width: 100%;
+  height: 88rpx;
+  padding: 0 24rpx !important;
+  border-radius: 16rpx;
+  background-color: #f5f7fa;
+  font-size: 28rpx;
+  color: #444444;
+  box-sizing: border-box;
+}
+
+/* 提交按钮样式 */
+.submit-btn.data-v-62a65bfd {
+  margin-top: 48rpx;
+  width: 100%;
+  height: 88rpx;
+  background-color: #399bfe;
+  color: #ffffff;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.submit-btn[disabled].data-v-62a65bfd {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.submit-btn.data-v-62a65bfd:active {
+  opacity: 0.8;
+}
+
+/* placeholder样式 */
+.placeholder-style.data-v-62a65bfd {
+  color: #cccccc;
+  font-size: 28rpx;
+  padding: 24rpx;
+}

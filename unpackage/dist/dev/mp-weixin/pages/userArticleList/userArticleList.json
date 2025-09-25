@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的朋友圈",
+  "usingComponents": {
+    "user-header": "../../components/user-header/user-header",
+    "article-item": "../../components/articleItem/articleItem",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

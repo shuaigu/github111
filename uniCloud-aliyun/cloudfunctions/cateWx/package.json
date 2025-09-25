@@ -1,0 +1,7 @@
+{
+  "name": "cateWx",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

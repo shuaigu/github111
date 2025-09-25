@@ -1,0 +1,6 @@
+{
+    "name": "wxpay-notify",
+    "version": "1.0.0",
+    "description": "微信支付回调处理",
+    "main": "index.js"
+} 

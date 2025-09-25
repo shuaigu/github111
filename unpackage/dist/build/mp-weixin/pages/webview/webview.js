@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={__name:"webview",setup(o){const a=e.ref("");return e.onLoad((e=>{console.log(e,"确认设置存在"),a.value=decodeURIComponent(e.url)})),(o,n)=>({a:a.value,b:e.gei(o,"")})}},a=e._export_sfc(o,[["__scopeId","data-v-3eed924a"]]);wx.createPage(a);
